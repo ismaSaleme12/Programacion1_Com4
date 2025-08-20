@@ -1,6 +1,6 @@
 print ("CALCULADORA DE PROPINAS")
 
-total_cuenta=int(input("INGRESA EL MONTO TOTAL DE LA CUENTA: ")
+total_cuenta=int(input("INGRESA EL MONTO TOTAL DE LA CUENTA: "))
 
 propina1=float(0.10)
 propina2=float(0.15)
