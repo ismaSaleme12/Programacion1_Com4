@@ -14,9 +14,9 @@ print(propina1_total)
 print("TOTAL A PAGAR")
 print(total_cuenta+propina1_total)
 
-print("PROPINA SUGERIDA (20%)")
+print("PROPINA SUGERIDA (15%)")
 
-#total de propina sugerida (20%)
+#total de propina sugerida (15%)
 propina2_total=total_cuenta*propina2
 
 print(propina2_total)
