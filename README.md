@@ -1,8 +1,8 @@
 # 💻Programacion 1 - Comision 4💻
 
-- **Profesor/a: Cinthia rigoni**
+- **📕 Profesor/a: Cinthia rigoni**
 
-- **Alumno: Ismael saleme**
+- **📙 Alumno: Ismael saleme**
 
-- **Nro de legajo: 802149**
+- **📘 Nro de legajo: 802149**
 
