@@ -1,6 +1,6 @@
 # 💻Programacion 1 - Comision 4💻
 
-- **📕 Profesor/a: Cinthia rigoni**
+- **📕 Profesora: Cinthia rigoni**
 
 - **📙 Alumno: Ismael saleme**
 
