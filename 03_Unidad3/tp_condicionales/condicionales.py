@@ -5,6 +5,7 @@
 print(" ")
 print("EJERCICIO 1")
 
+#ingreso de datos
 edad= int(input("Ingrese su edad: "))
 
 if edad >= 18:
@@ -14,8 +15,10 @@ if edad >= 18:
 print(" ")
 print("EJERCICIO 2")
 
+#ingreso de datos
 nota= int(input("Ingrese su nota: "))
 
+#validacion y salida
 if nota >= 6:
     print("Aprobado")
 else:
@@ -26,8 +29,10 @@ else:
 print(" ")
 print("EJERCICIO 3")
 
+#ingreso de datos
 num= int(input("ingrese un numero par: "))
 
+#validacion y salida
 if num % 2 == 0:
     print("ha ingresado un numero par")
 else:
@@ -38,8 +43,10 @@ else:
 print(" ")
 print("EJERCICIO 4")
 
+#ingreso de datos
 edad = int(input("Ingrese su edad: "))
 
+#verificacion de categoria 
 if edad < 12:
     categoria = "niño/a"
 elif edad >= 12 and edad < 18:
@@ -55,8 +62,10 @@ print("Usted pertenece a la categoria", categoria)
 print(" ")
 print("EJERCICIO 5")
 
+#ingreso de datos
 contraseña = input("Ingrese su contraseña: ")
 
+#verificacion de longitud
 if len(contraseña) >= 8 and len(contraseña) <= 14:
     print("ha ingresado una contraseña valida")
 else:
@@ -67,11 +76,14 @@ else:
 print(" ")
 print("EJERCICIO 6")
 
+#importacion de librerias
 from statistics import mode, median, mean 
 import random
 
+#ingreso de datos
 numeros = [random.randint(1, 100) for i in range (50)]
 
+#sesgo positivo, negativo o sin sesgo
 if mean(numeros) > median(numeros) and median(numeros) > mode(numeros):
     print("Sesgo positivo")
 elif mean(numeros) < median(numeros) and median(numeros) < mode(numeros):
@@ -83,9 +95,13 @@ else:
 print(" ")
 print("EJERCICIO 7")
 
+#guardo las vocales en una tupla
 vocales = "a", "e", "i", "o", "u"
+
+#ingreso de datos
 frase = input("Ingrese una frase: ")
 
+#verificacion de la ultima letra
 if frase[len(frase)-1].lower() in vocales:
     frase = frase + "!"
     print(frase)
@@ -96,9 +112,11 @@ else:
 print(" ")
 print("EJERCICIO 8")
 
+#ingreso de datos
 nombre = input("Ingrese su nombre: ")
 num_opc = int(input("<1> nombre en mayusculas / <2> nombre en minusculas / <3> primer letra en mayuscula: "))
 
+#verificacion de la opcion
 if num_opc == 1:
     print(nombre.upper())
 elif num_opc == 2:
@@ -110,8 +128,10 @@ else:
 print(" ")
 print("EJERCICIO 9")
 
+#ingreso de datos
 magnitud = float(input("ingrese la magnitud del terremoto: "))
 
+#verificacion de la categoria de la magbitud del terremoto
 if magnitud < 3:
     print("muy leve (imperceptible)")
 elif magnitud >= 3 and magnitud < 4:
@@ -130,16 +150,17 @@ else:
 print(" ")
 print("EJERCICIO 10")
 
+#ingreso de datos
 hemisferio = input("Ingrese su hemisferio (Norte/Sur): ").lower()
 dia = int(input("Ingrese el dia: "))
 mes = int(input("Ingrese el mes (en numero): "))
 
-#validacion 
+#validacion de fecha incorrectas
 if (mes < 1 or mes > 12) or (dia < 1 or dia > 31) or (mes == 2 and dia > 29) or (mes in [4,6,9,11] and dia > 30):
     print("Fecha no valida")
     exit() 
     
-#hemisferios
+#hemisferios y estaciones
 if hemisferio == "norte":
     
     if (mes == 12 and dia >= 21) or (mes in [1, 2]) or (mes == 3 and dia <= 20):
