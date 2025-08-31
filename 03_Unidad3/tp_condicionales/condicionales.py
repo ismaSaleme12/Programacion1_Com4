@@ -57,7 +57,7 @@ print("EJERCICIO 5")
 
 contraseña = input("Ingrese su contraseña: ")
 
-if len(contraseña) >= 8 or len(contraseña) <= 14:
+if len(contraseña) >= 8 and len(contraseña) <= 14:
     print("ha ingresado una contraseña valida")
 else:
     print("Por favor, ingrese una contraseñade entre 8 y 14 caracteres")
@@ -134,6 +134,11 @@ hemisferio = input("Ingrese su hemisferio (Norte/Sur): ").lower()
 dia = int(input("Ingrese el dia: "))
 mes = int(input("Ingrese el mes (en numero): "))
 
+#validacion 
+if (mes < 1 or mes > 12) or (dia < 1 or dia > 31) or (mes == 2 and dia > 29) or (mes in [4,6,9,11] and dia > 30):
+    print("Fecha no valida")
+    exit() 
+    
 #hemisferios
 if hemisferio == "norte":
     
