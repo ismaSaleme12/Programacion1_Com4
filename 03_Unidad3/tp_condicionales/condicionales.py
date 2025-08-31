@@ -1,3 +1,6 @@
+#tp condicionales - Saleme, Ismael
+
+
 #EJERCICIO 1
 print(" ")
 print("EJERCICIO 1")
