@@ -184,6 +184,7 @@ print("Ejercicio 10")
 
 num_invertido = 0
 num = int(input("Ingresa un numero: "))
+num = abs(num)
 original = num
 
 while num != 0:
