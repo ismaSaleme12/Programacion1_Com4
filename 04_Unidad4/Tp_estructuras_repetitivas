@@ -30,6 +30,7 @@ print(f"Cantidad de digitos: {digitos} ")
 #---------------------------------------------------------
 
 #EJERCICIO 3
+print(" ")
 print("Ejercicio 3")
 
 num1 = int(input("Ingrese el primer numero entero: "))
@@ -55,6 +56,7 @@ print(f"La suma de los numero enteros comprendidos entre {num1} y {num2} es de: 
 #---------------------------------------------------------
 
 #EJERCICIO 4
+print(" ")
 print("Ejercicio 4")
 
 salir = 1
@@ -73,6 +75,7 @@ print(f"La suma total de los numeros ingresados es de: {suma_numero}")
 
 #---------------------------------------------------------
 #EJERCICIO 5
+print(" ")
 print("Ejercicio 5")
 
 import random
@@ -95,6 +98,7 @@ print(f"Te tomo: {intentos} intentos")
 #---------------------------------------------------------
 
 #EJERCICIO 6
+print(" ")
 print("Ejercicio 6")
 
 for num in range(98, 0, -2):
@@ -104,6 +108,7 @@ for num in range(98, 0, -2):
 #---------------------------------------------------------
 
 #EJERCICIO 7
+print(" ")
 print("Ejercicio 7")
 
 suma_numeros = 0
@@ -120,6 +125,7 @@ print(f"la suma de los numeros comprendidos entre 0 y {num} es de: {suma_numeros
 #---------------------------------------------------------
 
 #EJERCICIO 8
+print(" ")
 print("Ejercicio 8")
 
 num_pares = 0
@@ -152,6 +158,7 @@ print(f"|Numero negativos: {num_negativos}")
 #---------------------------------------------------------
 
 #EJERCICIO 9
+print(" ")
 print("Ejercicio 9")
 
 cantidad = 100
@@ -172,6 +179,7 @@ print(f"La media de los numeros ingresados es de: {media}")
 
 
 #EJERCICIO 10
+print(" ")
 print("Ejercicio 10")
 
 num_invertido = 0
