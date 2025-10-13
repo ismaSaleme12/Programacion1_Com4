@@ -77,12 +77,12 @@ while intentos > 0:
 
     if intentos == 0:
         print()
-        print("¡Has perdido! La palabra era:", seleccionada.upper())
+        print("Has perdido, La palabra era:", seleccionada.upper())
         break
     
     estado_actual = mostrar_estado(seleccionada, letra_adivinada)
     print(estado_actual)
     
     if "_" not in estado_actual:
-        print("¡Felicidades! ¡Has ganado!")
+        print("Felicidades, Has ganado")
         break
